@@ -110,7 +110,7 @@
                     //dataType : "json",
                 })
                 .done(function( rpta ) {
-                    alert(rpta.message)
+                    //alert(rpta.message)
                     
                     var lstvendedores = rpta.vendedores;
                     for (var i = 0; i < lstvendedores.length; i++){
@@ -128,10 +128,10 @@
                     
                 })
                 .fail(function( xhr, status, errorThrown ) {
-                    alert( "Sorry, there was a problem!" );
+                    //alert( "Sorry, there was a problem!" );
                 })
                 .always(function( xhr, status ) {
-                    alert( "The request is complete!" );
+                    //alert( "The request is complete!" );
                 });
                 //CIERE DEL AJAX
             })
